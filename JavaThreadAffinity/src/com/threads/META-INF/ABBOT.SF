@@ -1,0 +1,287 @@
+Signature-Version: 1.0
+Created-By: 1.5.0_16 (Apple Inc.)
+SHA1-Digest-Manifest-Main-Attributes: yMvz1VG+faDZSZS07NL7fDo25iE=
+SHA1-Digest-Manifest: d+PLxzIdkBy94/ywpzDk/QolDgE=
+
+Name: com/sun/jna/win32/StdCallFunctionMapper.class
+SHA1-Digest: /G3r8q6h5dKMNWE2Sr+QSO/cYoo=
+
+Name: com/sun/jna/FromNativeConverter.class
+SHA1-Digest: jy0UoHZ6jtoUOpQRlPaSx+qwtNc=
+
+Name: com/sun/jna/openbsd-i386/libjnidispatch.so
+SHA1-Digest: GnjrTCF5Y0w5NsAH2PW69uPZxM8=
+
+Name: com/sun/jna/Library.class
+SHA1-Digest: rkjDOlYdIBJFVq+QhwLqJNvwO/Y=
+
+Name: com/sun/jna/Library$Handler$FunctionNameMap.class
+SHA1-Digest: GWOtdsYkfKvyySvDC6FkqjmQgJo=
+
+Name: com/sun/jna/win32/W32APIFunctionMapper.class
+SHA1-Digest: ObuJACZTd3mazi963Lf3axPleEY=
+
+Name: com/sun/jna/darwin/libjnidispatch.jnilib
+SHA1-Digest: w3bUxjAitmgd8lVQKU6ypSDCrcg=
+
+Name: com/sun/jna/PointerType.class
+SHA1-Digest: LW03YwzI2ClZSJeLqA0WI02GwxU=
+
+Name: com/sun/jna/FunctionResultContext.class
+SHA1-Digest: 3Ad1waBdCb3lnVKUO/C31xnYhnA=
+
+Name: com/sun/jna/TypeMapper.class
+SHA1-Digest: jsZmgNsfup1csQybntmF+Sq6Thg=
+
+Name: com/sun/jna/ptr/PointerByReference.class
+SHA1-Digest: vwnvBu65hoD/ebnMohUuQZ71dVY=
+
+Name: com/sun/jna/NativeLong.class
+SHA1-Digest: olHw+98BXGGoBbrz4F9D3q4bUZU=
+
+Name: com/sun/jna/WString.class
+SHA1-Digest: mMDArCwk1rAB/O2WTmU0gO4Seo8=
+
+Name: com/sun/jna/NativeLibrary.class
+SHA1-Digest: NjKHUfD84pAAGYaXx5RwMq32eos=
+
+Name: com/sun/jna/CallbackReference$NativeFunctionProxy.class
+SHA1-Digest: ZEhtoYVfZnPjvoLsjT16mjL66G4=
+
+Name: com/sun/jna/Memory.class
+SHA1-Digest: x/vpqZzw7e6WAr+UxLHpKkoGmJ8=
+
+Name: com/sun/jna/ptr/ShortByReference.class
+SHA1-Digest: SUbDX0k+B4qIrkrDQ7SE+GdyMWQ=
+
+Name: com/sun/jna/freebsd-amd64/libjnidispatch.so
+SHA1-Digest: Ui5j7YU2uzPC6/ZBnLHsEp4/frY=
+
+Name: com/sun/jna/win32-amd64/jnidispatch.dll
+SHA1-Digest: 7un7zo/0pq5MMasmGQLDpRGV+u8=
+
+Name: com/sun/jna/DefaultTypeMapper.class
+SHA1-Digest: JH3zeOirIcr/7ol0IR7kbSSMrmc=
+
+Name: com/sun/jna/Function$PointerArray.class
+SHA1-Digest: 1mBOey+WymTFn0VTfHJzXSULLfo=
+
+Name: com/sun/jna/win32/StdCallLibrary$StdCallCallback.class
+SHA1-Digest: jv6BA9xaPGAFmBliAnqxohCACxs=
+
+Name: com/sun/jna/Pointer$Opaque.class
+SHA1-Digest: e2qF6pK5E+07NNiC2t7mfmUMnco=
+
+Name: com/sun/jna/FromNativeContext.class
+SHA1-Digest: Y3TqLMq7C0+9U1BhW+5XwPmv7Gs=
+
+Name: com/sun/jna/Structure$ByReference.class
+SHA1-Digest: 6gzpIgcJi4/jJ6YRMD7CscF9WAM=
+
+Name: com/sun/jna/NativeMappedConverter.class
+SHA1-Digest: pMvtYIOIgXjLkFd1QX6rm+vgYMU=
+
+Name: com/sun/jna/Structure$FFIType$FFITypes.class
+SHA1-Digest: 6AK/c0Ku+BZ2nMpUZojPOzqVxP4=
+
+Name: com/sun/jna/Native.class
+SHA1-Digest: LKxCCii+cdIgoFMq36BWwQsNqlY=
+
+Name: com/sun/jna/ptr/NativeLongByReference.class
+SHA1-Digest: GUH/zIaN7I4EG2azUEJnst+a9JQ=
+
+Name: com/sun/jna/ptr/IntByReference.class
+SHA1-Digest: HYkxm4fhKbLMPRQ9+nAk+IAWFTE=
+
+Name: com/sun/jna/CallbackResultContext.class
+SHA1-Digest: btDT7uU1NXajPxaVrkHfVK2dRCc=
+
+Name: com/sun/jna/win32/W32APITypeMapper$2.class
+SHA1-Digest: kcqTIM7gU1ynH08tZITq6zlRcfA=
+
+Name: com/sun/jna/sunos-sparcv9/libjnidispatch.so
+SHA1-Digest: 0GYBWHcPBgg86KTewh0CNs5aSfI=
+
+Name: com/sun/jna/freebsd-i386/libjnidispatch.so
+SHA1-Digest: 3YyvkQWN9NwmmOWHbpRNcIGjh7s=
+
+Name: com/sun/jna/Platform.class
+SHA1-Digest: 0+XDlcZCJKi2TxFdFB8kbb3u1YI=
+
+Name: com/sun/jna/StructureWriteContext.class
+SHA1-Digest: m7eZgouhjCFO33l3rux2yZ/N958=
+
+Name: com/sun/jna/CallbackReference$NativeFunctionHandler.class
+SHA1-Digest: qW7YM/Ot7pbkslyYY61q/DWBCL4=
+
+Name: com/sun/jna/Native$2.class
+SHA1-Digest: akJi8ZfaAWH0sxPv1SxB2bxfOiI=
+
+Name: com/sun/jna/TypeConverter.class
+SHA1-Digest: Fm8s464lSqkOHeSVNR6xOkZoH7k=
+
+Name: com/sun/jna/NativeLibrary$2.class
+SHA1-Digest: d+Kh0+CWWle9jgnojGEx4Z8iDCE=
+
+Name: com/sun/jna/Function$PostCallRead.class
+SHA1-Digest: rEt6DxmJGjpsAN9bEmy0vSPAb+w=
+
+Name: com/sun/jna/ptr/ByReference.class
+SHA1-Digest: fgv1PnwHZrbdehInoPstgcAo/KI=
+
+Name: com/sun/jna/Structure$ByValue.class
+SHA1-Digest: 2hF11CwBiFGqkxANJOL/ff98CBw=
+
+Name: com/sun/jna/win32/W32APITypeMapper$1.class
+SHA1-Digest: k/DO3G0dZY1meCw4+BIt7OpJSWo=
+
+Name: com/sun/jna/sunos-amd64/libjnidispatch.so
+SHA1-Digest: l4LF/HKqO6f1p1vwrEuKwdVmpo8=
+
+Name: com/sun/jna/win32/W32APITypeMapper.class
+SHA1-Digest: qodBjbKsg72oY+97iIxXkGB39yE=
+
+Name: com/sun/jna/sunos-sparc/libjnidispatch.so
+SHA1-Digest: AKJgqHpeDFm3vsgKo+aeaJlMvL4=
+
+Name: com/sun/jna/MethodResultContext.class
+SHA1-Digest: MJnAR8A34XIer2ghIt7yJQ11St8=
+
+Name: com/sun/jna/Structure$MemberOrder.class
+SHA1-Digest: 7poetm24hPuvlNhOJIEmpC5ZfoA=
+
+Name: com/sun/jna/StringArray.class
+SHA1-Digest: TiFLaVhZfnrNX4LkKqDxQoLorGg=
+
+Name: com/sun/jna/MethodParameterContext.class
+SHA1-Digest: eeACwPezBwk3+05zn+WefJs0+vY=
+
+Name: com/sun/jna/FunctionMapper.class
+SHA1-Digest: WJC9R1spoXcx5qoPwW9hVX9JW34=
+
+Name: com/sun/jna/Library$1.class
+SHA1-Digest: IZhLgcKYcakWOByufEc7bD/Aneg=
+
+Name: com/sun/jna/Native$1.class
+SHA1-Digest: vtklm60QJW3dfEEjpXqpWha5GBk=
+
+Name: com/sun/jna/Memory$SharedMemory.class
+SHA1-Digest: Uc8E/L0mFUI+wy8WJ3EwkERBJjI=
+
+Name: com/sun/jna/Native$DeleteNativeLibrary.class
+SHA1-Digest: XKHEDb2BHdwRSGeptqNzlXFV0Wg=
+
+Name: com/sun/jna/CallbackParameterContext.class
+SHA1-Digest: QTnN8Xh5b4zNneSMmj8Z4csbvB8=
+
+Name: com/sun/jna/linux-amd64/libjnidispatch.so
+SHA1-Digest: 0Qz7Y39AbF3KGk2B6kzZkVSvY6o=
+
+Name: com/sun/jna/sunos-x86/libjnidispatch.so
+SHA1-Digest: RVaDAArdF8ZE7oMRPdBZ05C9Ecs=
+
+Name: com/sun/jna/ToNativeConverter.class
+SHA1-Digest: Rx3nBz/Vp54KflijjD35KrI6O3o=
+
+Name: com/sun/jna/win32/StdCallLibrary.class
+SHA1-Digest: HFxnCYhRdJh+CD69hMsq9VYmSXg=
+
+Name: com/sun/jna/Callback.class
+SHA1-Digest: dWE/klLQVGbzEKSOLdaJ0Cns8Og=
+
+Name: com/sun/jna/IntegerType.class
+SHA1-Digest: wNLGvKLl//jPPjA42Zb00gx9CtM=
+
+Name: com/sun/jna/Structure$FFIType.class
+SHA1-Digest: mY76V97PbHNYN6iPfMS8Wn3D4hQ=
+
+Name: com/sun/jna/Structure$StructField.class
+SHA1-Digest: UVLaUEV7UQXBwM50g0SvINRfmy8=
+
+Name: com/sun/jna/CallbackProxy.class
+SHA1-Digest: lFs6o0TWeju1QTnN5fpAA98SlOA=
+
+Name: com/sun/jna/Function.class
+SHA1-Digest: 4bF5tFIQ2eAe0XVddlXufXB1ob8=
+
+Name: com/sun/jna/Pointer.class
+SHA1-Digest: 0oTPTHkg01QgGu/7hjXzh7dUClc=
+
+Name: com/sun/jna/Pointer$1.class
+SHA1-Digest: EbXHKYk2z20XhAcgMyfUczKllhI=
+
+Name: com/sun/jna/DefaultTypeMapper$Entry.class
+SHA1-Digest: 6jTg2czqW0d12g3MF5LoEW2LCoM=
+
+Name: com/sun/jna/CallbackReference$DefaultCallbackProxy.class
+SHA1-Digest: Co8PiD0u5Ey0ZzJzGZ0F4zF0i2c=
+
+Name: com/sun/jna/AltCallingConvention.class
+SHA1-Digest: u93MmgvcP2sCiIl5nxIohdhsxTQ=
+
+Name: com/sun/jna/Union.class
+SHA1-Digest: H8Q07k5INcBm4A5aP2K8Sb7AjGU=
+
+Name: com/sun/jna/ptr/LongByReference.class
+SHA1-Digest: c7/1/1V1aYN5cUe3+JI2Rq8Ey7s=
+
+Name: com/sun/jna/Structure.class
+SHA1-Digest: 5vmQksq++OLCOV2w31w/m0mbypY=
+
+Name: com/sun/jna/CallbackReference.class
+SHA1-Digest: sXDQ50PbO+jrfwZkTN2bcHyNboY=
+
+Name: com/sun/jna/Library$Handler$FunctionInfo.class
+SHA1-Digest: vxoomz6MBE9J381tbfbCLVrFwuo=
+
+Name: com/sun/jna/ToNativeContext.class
+SHA1-Digest: vKWuZGXdG/tVU2mPKb1CtVEhbCw=
+
+Name: com/sun/jna/CallbackReference$NativeFunctionHandler$1.class
+SHA1-Digest: +Y52CGRIa1Way0mRW6ifJCnxYZo=
+
+Name: com/sun/jna/StructureReadContext.class
+SHA1-Digest: 6RpuQsc0iT2kcjsrYc3kxf4E++M=
+
+Name: com/sun/jna/InvocationMapper.class
+SHA1-Digest: lUJWUeXAvsEaWU6V9FdFMHdtrL8=
+
+Name: com/sun/jna/linux-i386/libjnidispatch.so
+SHA1-Digest: chVi8uJcAXPCGQF20xI4UhRRSuw=
+
+Name: com/sun/jna/win32-x86/jnidispatch.dll
+SHA1-Digest: H7TL2wplYKl+Ke327Nz7s6oMY98=
+
+Name: com/sun/jna/ptr/DoubleByReference.class
+SHA1-Digest: xFedaZ8qT0XloEKC/YGBE4mmmZ8=
+
+Name: com/sun/jna/Library$Handler.class
+SHA1-Digest: 45q7u7i8zf7DyWn3zng96m+1YcU=
+
+Name: com/sun/jna/NativeString.class
+SHA1-Digest: G+p2go4ekxzUn9EfMIpobxnL4LE=
+
+Name: com/sun/jna/ptr/ByteByReference.class
+SHA1-Digest: tvwvO9Rc+Wdv+D8+tKWDyDHjVgg=
+
+Name: com/sun/jna/NativeMapped.class
+SHA1-Digest: NhXXpSsYeiJBHX3zgQeuYwiF1+g=
+
+Name: com/sun/jna/Structure$FFIType$size_t.class
+SHA1-Digest: n/yBiemyIsTtdZSHgb3xnyd7dn0=
+
+Name: com/sun/jna/
+SHA1-Digest: erv2pO6A60zqOVsuevvWkiqFu4w=
+
+Name: com/sun/jna/win32/StdCall.class
+SHA1-Digest: IV4jb6UOYviz4Z4kasNPNwWbWj4=
+
+Name: com/sun/jna/NativeLibrary$1.class
+SHA1-Digest: ESXwArmDeJ7k3/cSsOILUkrlidA=
+
+Name: com/sun/jna/FunctionParameterContext.class
+SHA1-Digest: Smf9XaACdmxytVp2axazaDr7iLQ=
+
+Name: com/sun/jna/ptr/FloatByReference.class
+SHA1-Digest: D7TYsFbDo54YdHirt3cfo5zS8UQ=
+
