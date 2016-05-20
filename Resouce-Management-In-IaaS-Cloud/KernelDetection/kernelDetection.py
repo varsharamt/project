@@ -7,9 +7,9 @@ import cPickle as pickle
 import math
 
 def main():
-    data1 =open("datasets/set/user1_cpu.csv","r+").read().split("\n") #CPU data for a particular user
+    data1 =open("datasets/set/cpu.csv","r+").read().split("\n") #CPU data for a particular user
     #print data1
-    data2 = open("datasets/set/user1_mem.csv").read().split("\n") #memory usagevalues
+    data2 = open("datasets/set/memory.csv").read().split("\n") #memory usagevalues
     #print data2
     [x2,y2,z2,datList2] = calcMean(data2,1.0)
     [x1,y1,z1,datList1] = calcMean(data1,100.0)
