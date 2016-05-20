@@ -7,21 +7,17 @@ import cPickle as pickle
 import math
 
 def main():
-    data1 =open("datasets/set/user1_cpu.csv","r+").read().split("\n")
+    data1 =open("datasets/set/user1_cpu.csv","r+").read().split("\n") #CPU data for a particular user
     #print data1
-    data2 = open("datasets/set/user1_mem.csv").read().split("\n")
+    data2 = open("datasets/set/user1_mem.csv").read().split("\n") #memory usagevalues
     #print data2
     [x2,y2,z2,datList2] = calcMean(data2,1.0)
     [x1,y1,z1,datList1] = calcMean(data1,100.0)
     [result21,result22] = getSampleSize(5,datList2)
     [result11,result12] = getSampleSize(5,datList1) 
-    print "resultttttttttttttttt"
-    print result11[0]
-    print result11[0]
     #[yval1, yval2] = generateYVals(result11[0],result12[0],z1)
     
     [w1,w2]=trainSVM(result11[0],result12[0],result21[0],result22[0],0.04)
-    print "trainingggggggggggggggggg"
     
     normal = generateVectorPlane(w1,w2)
     result = computeArcLength(w1,w2)
@@ -48,7 +44,6 @@ def calcMean(datList,maxVal):
     #print variance
     stdDev = math.sqrt(variance)
     return [mean,variance,stdDev,normalList]
-    print "ooooooooooooooooooooooooooooooooooooooooooooooooo"
     print [mean,variance,stdDev,normalList]
 
 def getSampleSize(chunkSize,datList):
@@ -84,7 +79,7 @@ def generateYVals(mVals1,mVals2,sigma1):
     print yVals2
     return [yVals1, yVals2]
 
-def trainSVM(m1,y1,nu):
+def trainSVM(m1,y1,m2,y2,nu):
     classifier1 = sklearn.svm.OneClassSVM(kernel='linear', nu =nu,gamma ='auto')
     classifier2 = sklearn.svm.OneClassSVM(kernel='linear', nu =nu,gamma='auto')
     
@@ -102,7 +97,6 @@ def trainSVM(m1,y1,nu):
 
    # t1 = np.r_[tx+1.0,tx-1.0]
     #t2 = np.r_[ty+1.0,ty-1.0] 
-    print "tttttttttttttttttttttttttttttttttttttttttt"
     #print t1
     #print t2
 
@@ -114,14 +108,11 @@ def trainSVM(m1,y1,nu):
     
     w1 = clfit1.coef_
     w2 = clfit2.coef_    
-    print "planeeeeeeeeee"
     print w1
-    #print w2
+    print w2
     #print clfit1.support_vectors_
     #print clfit2.support_vectors_
-    print "wwwwwwwwwwwwwwwwwwwwwwwwwwwww"
-    print [w1,w2]
-    
+    #print [w1,w2]
     return [w1, w2]
 
 def generateVectorPlane(w1,w2):
@@ -129,7 +120,6 @@ def generateVectorPlane(w1,w2):
     planeVec =  np.cross(w1,w2)
     print "In function generateVectorPlane: the vector is "+str(planeVec)
     normPlaneVec = planeVec/ math.sqrt(sum([n**2 for n in planeVec]))
-    print "sssssssssssssssssssssssssssssss"
     print normPlaneVec 
     return normPlaneVec
                 		
